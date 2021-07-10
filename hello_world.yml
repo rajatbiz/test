@@ -1,0 +1,7 @@
+- name: Hello rajat Sample
+  hosts: all
+  tasks:
+    - name: Rajat Message
+      debug:
+        msg: "Rajat World!"
+
